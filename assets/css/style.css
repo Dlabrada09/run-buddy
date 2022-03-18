@@ -11,7 +11,7 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color: #024e76;
 }
 
 header h1 {
@@ -86,6 +86,7 @@ section {
     position: absolute;
     bottom: 120px;
     right: 140px;
+    border-radius: 25px;
 }
 
  .hero-form h3 {
