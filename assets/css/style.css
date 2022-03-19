@@ -139,9 +139,12 @@ section {
      font-size: 16px;
  }
  /* Hero Styling Ends */
-
-  .intro {
+  .flex-row {
+      display: flex;
+      padding-bottom: 20px;
       text-align: center;
+      margin: 0 auto 35 px auto;
+      width: 50%;
   }
 
   .intro p {
@@ -150,14 +153,12 @@ section {
       width: 80%;
       font-size: 20px;
       margin: 0 auto;
+      text-align: center;
   }
 
   .section-title {
       font-size: 55px;
       color: #024e76;
-      margin-bottom: 35px;
-      padding: 0 100px 20px 100px;
-      display: inline-block;
       border-bottom: 3px solid;
   }
 
@@ -170,7 +171,6 @@ section {
   }
 
   .steps {
-      text-align: center;
       background: #fce138;
   }
 
@@ -199,7 +199,6 @@ section {
   }
 
   .trainer {
-      text-align: center;
       width: 900px;
       margin: 0 auto 30px auto;
       background: #024e76;
@@ -243,7 +242,6 @@ section {
 
   .contact {
       background-color: #024e76;
-      text-align: center;
   }
 
   .contact h2 {
